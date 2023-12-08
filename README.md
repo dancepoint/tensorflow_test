@@ -2,4 +2,9 @@
 
 Thanks to the TensorFlow team for the following example
 https://github.com/tensorflow/tfjs-examples/tree/master/react-native/pose-detection
-# tensorflow_test
+
+### Installation and Running
+```
+npm install
+npm start
+```
