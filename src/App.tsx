@@ -321,8 +321,7 @@ export default function App() {
           resizeHeight={getOutputTensorHeight()}
           resizeDepth={3}
           rotation={getTextureRotationAngleInDegrees()}
-          onReady={handleCameraStream}
-        />
+          onReady={handleCameraStream} useCustomShadersToResize={false} cameraTextureWidth={0} cameraTextureHeight={0}        />
         {renderPose()}
         {renderFps()}
         {renderCameraTypeSwitcher()}
